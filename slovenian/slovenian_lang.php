@@ -1597,6 +1597,60 @@ $lang['goal_type_income_subtext']                                    = 'Income w
 # Payments
 $lang['payment_transaction_id']                                      = 'Transaction ID';
 # Settings Menu
+<<<<<<< HEAD
+$lang['acs_expenses']                                                = 'Stroški';
+$lang['acs_expense_categories']                                      = 'Kategorija stroškov';
+# Expeneses
+$lang['expense_category']                                            = 'Kategorija stroškov';
+$lang['expense_category_lowercase']                                  = 'Kategorija stroškov';
+$lang['new_expense']                                                 = 'Zapis stroška;
+$lang['expense_add_edit_name']                                       = 'Ime kategorije';
+$lang['expense_add_edit_description']                                = 'Opis kategorije';
+$lang['expense_categories']                                          = 'Kategorije stroškov';
+$lang['new_expense_category']                                        = 'Nova kategorija';
+$lang['dt_expense_description']                                      = 'Opis';
+$lang['expense']                                                     = 'Strošek';
+$lang['expenses']                                                    = 'Stroški';
+$lang['expense_lowercase']                                           = 'strošek';
+$lang['expense_add_edit_tax']                                        = 'Davek';
+$lang['expense_add_edit_customer']                                   = 'Stranka';
+$lang['expense_add_edit_currency']                                   = 'Valuta';
+$lang['expense_add_edit_note']                                       = 'Opomba';
+$lang['expense_add_edit_date']                                       = 'Datum stroška';
+$lang['expense_add_edit_amount']                                     = 'Količina';
+$lang['expense_add_edit_billable']                                   = 'Plačljivo';
+$lang['expense_add_edit_attach_receipt']                             = 'Pripni račun';
+$lang['expense_add_edit_reference_no']                               = 'Referenca #';
+$lang['expense_receipt']                                             = 'Strošek računa';
+$lang['expense_receipt_lowercase']                                   = 'Strošek računa';
+$lang['expense_dt_table_heading_category']                           = 'Kategorija';
+$lang['expense_dt_table_heading_amount']                             = 'Količina';
+$lang['expense_dt_table_heading_date']                               = 'Datum';
+$lang['expense_dt_table_heading_reference_no']                       = 'Referenca #';
+$lang['expense_dt_table_heading_customer']                           = 'Stranka';
+$lang['expense_dt_table_heading_payment_mode']                       = 'Način plačila';
+$lang['expense_converted_to_invoice']                                = 'Strošek uspešno pretvorjen v fakturo';
+$lang['expense_converted_to_invoice_fail']                           = 'Neuspela pretvorba stroška v fakturo. Poglej dnevnik napak.';
+$lang['expense_copy_success']                                        = 'Strošek je uspešno kopiran..';
+$lang['expense_copy_fail']                                           = 'Kopiranje stroška ni uspelo. Izpolnite obvezna polja in poskusite ponovno.';
+$lang['expenses_list_all']                                           = 'Vse';
+$lang['expenses_list_billable']                                      = 'Plačljivo';
+$lang['expenses_list_non_billable']                                  = 'Ne-plačljivo';
+$lang['expenses_list_invoiced']                                      = 'Fakturirano';
+$lang['expenses_list_unbilled']                                      = 'Nefakturirano';
+$lang['expenses_list_recurring']                                     = 'Ponavljajoč';
+$lang['expense_invoice_delete_not_allowed']                          = 'Ta strošek ne more biti izbrisan. Strošek je že fakturiran.';
+$lang['expense_convert_to_invoice']                                  = 'Pretvori v fakturo.';
+$lang['expense_edit']                                                = 'Uredi strošek';
+$lang['expense_delete']                                              = 'Izbriši';
+$lang['expense_copy']                                                = 'Kopiraj';
+$lang['expense_invoice_not_created']                                 = 'Faktura ni ustvarjena';
+$lang['expense_billed']                                              = 'Zaračunano.';
+$lang['expense_not_billed']                                          = 'Faktura ni plačana.';
+$lang['expense_customer']                                            = 'Stranka';
+$lang['expense_note']                                                = 'Opomba:';
+$lang['expense_date']                                                = 'Datum:';
+=======
 $lang['acs_expenses']                                                = 'Expenses';
 $lang['acs_expense_categories']                                      = 'Expenses Categories';
 # Expeneses
@@ -1649,155 +1703,161 @@ $lang['expense_not_billed']                                          = 'Invoice 
 $lang['expense_customer']                                            = 'Customer';
 $lang['expense_note']                                                = 'Note:';
 $lang['expense_date']                                                = 'Date:';
+>>>>>>> 5ab08360e8b9eb59db8dcd3c74f199e28e6be840
 $lang['expense_ref_noe']                                             = 'Ref #:';
-$lang['expense_tax']                                                 = 'Tax:';
-$lang['expense_amount']                                              = 'Amount:';
-$lang['expense_recurring_indicator']                                 = 'Recurring';
-$lang['expense_already_invoiced']                                    = 'This expense is already invoiced';
-$lang['expense_recurring_auto_create_invoice']                       = 'Auto Create Invoice';
-$lang['expense_recurring_send_custom_on_renew']                      = 'Send the invoice to customer email when expense repeated';
-$lang['expense_recurring_autocreate_invoice_tooltip']                = 'If this option is checked the invoice for the customer will be auto created when the expense will be renewed.';
-$lang['report_expenses_full']                                        = 'Full Report';
-$lang['expenses_yearly_by_categories']                               = 'Expenses Yearly by Categories';
-$lang['total_expenses_for']                                          = 'Total Expenses for'; // year
-$lang['expenses_report_for']                                         = 'Expenses for'; // year
+$lang['expense_tax']                                                 = 'Davek:';
+$lang['expense_amount']                                              = 'Količina:';
+$lang['expense_recurring_indicator']                                 = 'Ponavljajoč';
+$lang['expense_already_invoiced']                                    = 'Ta strošek je že fakturiran.';
+$lang['expense_recurring_auto_create_invoice']                       = 'Samodejna izdelava fakture';
+$lang['expense_recurring_send_custom_on_renew']                      = 'Pošlji fakturo na strankin email, ko se strošek ponovi.';
+$lang['expense_recurring_autocreate_invoice_tooltip']                = 'Če je ta opcija izbrana bo faktura za stranko samodejno ustvarjena, ko bo strošek prenovljen.';
+$lang['report_expenses_full']                                        = 'Popolno poročilo';
+$lang['expenses_yearly_by_categories']                               = 'Letni stroški po kategorijah';
+$lang['total_expenses_for']                                          = 'Popolni stroški za'; // leto
+$lang['expenses_report_for']                                         = 'Stroški za'; // leto
 # Custom fields
-$lang['custom_field_required']                                       = 'Required';
-$lang['custom_field_show_on_pdf']                                    = 'Show on PDF';
-$lang['custom_field_leads']                                          = 'Leads';
-$lang['custom_field_customers']                                      = 'Customers';
-$lang['custom_field_staff']                                          = 'Staff';
-$lang['custom_field_contracts']                                      = 'Contracts';
-$lang['custom_field_tasks']                                          = 'Tasks';
-$lang['custom_field_expenses']                                       = 'Expenses';
-$lang['custom_field_invoice']                                        = 'Invoice';
-$lang['custom_field_estimate']                                       = 'Estimate';
+$lang['custom_field_required']                                       = 'Obvezno';
+$lang['custom_field_show_on_pdf']                                    = 'Prikaži v PDF';
+$lang['custom_field_leads']                                          = 'Zgledi';
+$lang['custom_field_customers']                                      = 'Stranke';
+$lang['custom_field_staff']                                          = 'Osebje';
+$lang['custom_field_contracts']                                      = 'Pogodbe';
+$lang['custom_field_tasks']                                          = 'Naloge';
+$lang['custom_field_expenses']                                       = 'Stroški';
+$lang['custom_field_invoice']                                        = 'Faktura';
+$lang['custom_field_estimate']                                       = 'Ocena';
 # Tickets
-$lang['ticket_single_private_staff_notes']                           = 'Private Staff Notes';
+$lang['ticket_single_private_staff_notes']                           = 'Zasebni zapiski osebja';
 
 
 # Business News
-$lang['business_news'] = 'Business News';
+$lang['business_news'] = 'Poslovne novice';
 
 # Navigation
-$lang['nav_todo_items']               = 'Todo items';
+$lang['nav_todo_items']               = 'Stvari za narediti';
 # Clients
 # Contracts
-$lang['clients_contracts_type']       = 'Contract Type';
+$lang['clients_contracts_type']       = 'Tip pogodbe';
 # Version 1.0.5
 # General
-$lang['no_tax']                             = 'No Tax';
-$lang['numbers_not_formated_while_editing'] = 'The rate in the input field is not formated while edit/add item and should remain not formated dont try to format it manually in here.';
+$lang['no_tax']                             = 'Ni davka';
+$lang['numbers_not_formated_while_editing'] = 'Razmerje v vnosnem polju ni formatirano, ko uredi/dodaj predmet ni formatiran. Ne poskušajte jih rolno formatirati tu.';
 # Contracts
-$lang['contracts_view_expired']             = 'Expired';
-$lang['contracts_view_without_dateend']     = 'Contracts Without Date End';
+$lang['contracts_view_expired']             = 'Poteklo';
+$lang['contracts_view_without_dateend']     = 'Pogodbe brez končnega datuma';
 
 # Email Templates
-$lang['email_template_contracts_fields_heading'] = 'Contracts';
+$lang['email_template_contracts_fields_heading'] = 'Pogodbe';
 # Invoices General
-$lang['invoice_estimate_general_options']        = 'General Options';
-$lang['invoice_table_item_description']          = 'Description';
-$lang['invoice_recurring_indicator']             = 'Recurring';
+$lang['invoice_estimate_general_options']        = 'Splošne možnosti';
+$lang['invoice_table_item_description']          = 'Opis';
+$lang['invoice_recurring_indicator']             = 'Ponavljajoče';
 
 # Estimates
-$lang['estimate_convert_to_invoice_successfuly'] = 'Estimate converted to invoice successfully';
-$lang['estimate_table_item_description']         = 'Description';
+$lang['estimate_convert_to_invoice_successfuly'] = 'Ocena uspešno pretvorjena v fakturo.';
+$lang['estimate_table_item_description']         = 'Opis';
 
 # Version 1.0.6
 # Invoices
 # Currencies
-$lang['cant_delete_base_currency'] = 'You cant delete the base currency. You need to assign new base currency the delete this.';
-$lang['invoice_copy']              = 'Copy Invoice';
-$lang['invoice_copy_success']      = 'Invoice copied successfully';
-$lang['invoice_copy_fail']         = 'Failed to copy invoice';
-$lang['invoice_due_after_help']    = 'Set zero to avoid calculation';
+$lang['cant_delete_base_currency'] = 'Ne morete izbrisati osnovne valute. Morate dodeliti novo osnovno valuto, da bi izbrisali to.';
+$lang['invoice_copy']              = 'Kopiraj fakturo.';
+$lang['invoice_copy_success']      = 'Faktura uspešno kopirana.';
+$lang['invoice_copy_fail']         = 'Ni uspelo kopirati fakture.';
+$lang['invoice_due_after_help']    = 'Nastavite ničlo, da se izognete izračunu.';
 
-$lang['show_shipping_on_invoice'] = 'Show shipping details in invoice';
+$lang['show_shipping_on_invoice'] = 'Prikaži podrobnosti pošiljanja v fakturi.';
 
 # Estimates
-$lang['show_shipping_on_estimate']         = 'Show shipping details in estimate';
-$lang['is_invoiced_estimate_delete_error'] = 'This estimate is invoiced. You cant delete the estimate';
+$lang['show_shipping_on_estimate']         = 'Prikaži podrobnosti pošiljanja v oceni.';
+$lang['is_invoiced_estimate_delete_error'] = 'Ta ocena je fakturirana. Ne morete izbrisati ocene.';
 
 # Customers & Invoices / Estimates
-$lang['ship_to']                  = 'Ship to';
-$lang['customer_profile_details'] = 'Customer Details';
-$lang['billing_shipping']         = 'Billing & Shipping';
-$lang['billing_address']          = 'Billing Address';
-$lang['shipping_address']         = 'Shipping Address';
+$lang['ship_to']                  = 'Pošlji:';
+$lang['customer_profile_details'] = 'Podrobnosti stranke';
+$lang['billing_shipping']         = 'Plačilo&dostava';
+$lang['billing_address']          = 'Naslov za plačilo';
+$lang['shipping_address']         = 'Naslov za dostavo';
 
-$lang['billing_street']  = 'Street';
-$lang['billing_city']    = 'City';
-$lang['billing_state']   = 'State';
-$lang['billing_zip']     = 'Zip Code';
-$lang['billing_country'] = 'Country';
+$lang['billing_street']  = 'Ulica';
+$lang['billing_city']    = 'Mesto';
+$lang['billing_state']   = 'Občina';
+$lang['billing_zip']     = 'Poštna številka';
+$lang['billing_country'] = 'Država';
 
-$lang['shipping_street']                    = 'Street';
-$lang['shipping_city']                      = 'City';
-$lang['shipping_state']                     = 'State';
-$lang['shipping_zip']                       = 'Zip Code';
-$lang['shipping_country']                   = 'Country';
-$lang['get_shipping_from_customer_profile'] = 'Get shipping details from customer profile';
+$lang['shipping_street']                    = 'Ulica';
+$lang['shipping_city']                      = 'Mesto';
+$lang['shipping_state']                     = 'Občina';
+$lang['shipping_zip']                       = 'Poštna številka';
+$lang['shipping_country']                   = 'Država';
+$lang['get_shipping_from_customer_profile'] = 'Dobi podatke pošiljanja s strankinega profila';
 
 # Customer
-$lang['customer_file_from']                                    = 'Showing from %s';
-$lang['customer_default_currency']                             = 'Default Currency';
-$lang['customer_no_attachments_found']                         = 'No attachments found';
-$lang['customer_update_address_info_on_invoices']              = 'Update the shipping/billing info on all previous invoices/estimates';
-$lang['customer_update_address_info_on_invoices_help']         = 'If you check this field shipping and billing info will be updated to all invoices and estimates. Note: Invoices with status paid wont be affected.';
-$lang['setup_google_api_key_customer_map']                     = 'Setup google api key in order to view to customer map';
-$lang['customer_attachments_file']                             = 'File';
-$lang['client_send_set_password_email']                        = 'Send SET password email';
-$lang['customer_billing_same_as_profile']                      = 'Same as Customer Info';
-$lang['customer_billing_copy']                                 = 'Copy Billing Address';
-$lang['customer_map']                                          = 'Map';
-$lang['set_password_email_sent_to_client']                     = 'Email to set password is successfully sent to contact';
-$lang['set_password_email_sent_to_client_and_profile_updated'] = 'Profile updated and email to set password is successfully sent to contact';
-$lang['customer_attachments']                                  = 'Files';
-$lang['customer_longitude']                                    = 'Longitude (Google Maps)';
-$lang['customer_latitude']                                     = 'Latitude (Google Maps)';
+$lang['customer_file_from']                                    = 'Kaže iz %';
+$lang['customer_default_currency']                             = 'Osnovna enota';
+$lang['customer_no_attachments_found']                         = 'Ni najdenih priponk';
+$lang['customer_update_address_info_on_invoices']              = 'Posodobi podatke o dostavi in plačilu na vseh prejšnjih fakturah in ocenah.';
+$lang['customer_update_address_info_on_invoices_help']         = 'Če obkljukate to polje, bodo informacije o plačilu in dostavi posodobljene pri vseh fakturah in ocenah. Opomba: Fakture s statusom:plačano ne bodo spremenjene.';
+$lang['setup_google_api_key_customer_map']                     = 'Nastavite google api ključ, da lahko vidite mapo stranke.';
+$lang['customer_attachments_file']                             = 'Datoteka';
+$lang['client_send_set_password_email']                        = 'Pošlji mail za nastavitev gesla;
+$lang['customer_billing_same_as_profile']                      = 'Enako kot informacije';
+$lang['customer_billing_copy']                                 = 'Kopiraj naslov za plačilo';
+$lang['customer_map']                                          = 'Mapa';
+$lang['set_password_email_sent_to_client']                     = 'Email za nastavitev gesla je uspešno poslan kontaktu.';
+$lang['set_password_email_sent_to_client_and_profile_updated'] = 'Profil posodobljen in email za nastavitev gesla uspešno poslan kontaktu.';
+$lang['customer_attachments']                                  = 'Datoteke';
+$lang['customer_longitude']                                    = 'Zemljepisna dolžina (Google Maps)';
+$lang['customer_latitude']                                     = 'Zemljepisna širina (Google Maps)';
 
 # Authentication
-$lang['admin_auth_set_password']          = 'Password';
-$lang['admin_auth_set_password_repeat']   = 'Repeat Password';
-$lang['admin_auth_set_password_heading']  = 'Set Password';
-$lang['password_set_email_subject']       = 'Set new password on %s';
+$lang['admin_auth_set_password']          = 'Geslo';
+$lang['admin_auth_set_password_repeat']   = 'Ponovite geslo';
+$lang['admin_auth_set_password_heading']  = 'Nastavite geslo';
+$lang['password_set_email_subject']       = 'Nastavite novo geslo na %';
 # General
-$lang['apply']                            = 'Apply';
-$lang['department_calendar_id']           = 'Google Calendar ID';
+$lang['apply']                            = 'Uporabi';
+$lang['department_calendar_id']           = 'Google Koledar ID';
 $lang['kan_ban_string']                   = 'Kan Ban';
-$lang['localization_default_language']    = 'Default Language';
-$lang['system_default_string']            = 'System Default';
-$lang['advanced_options']                 = 'Advanced Options';
+$lang['localization_default_language']    = 'Privzeti jezik';
+$lang['system_default_string']            = 'Privzeti sistem';
+$lang['advanced_options']                 = 'Napredne možnosti';
 # Expenses
-$lang['expense_list_invoice']             = 'Invoiced';
-$lang['expense_list_billed']              = 'Billed';
-$lang['expense_list_unbilled']            = 'Not Invoiced';
+$lang['expense_list_invoice']             = 'Fakturirano';
+$lang['expense_list_billed']              = 'Plačano';
+$lang['expense_list_unbilled']            = 'Ni fakturirano';
 # Leads
-$lang['lead_merge_custom_field']          = 'Merge as custom field';
-$lang['lead_merge_custom_field_existing'] = 'Merge with database field';
-$lang['lead_dont_merge_custom_field']     = 'Dont merge';
-$lang['no_lead_notes_found']              = 'No lead notes found';
-$lang['leads_view_list']                  = 'List';
-$lang['lost_leads']                       = 'Lost Leads';
-$lang['junk_leads']                       = 'Junk Leads';
-$lang['lead_mark_as_lost']                = 'Mark as lost';
-$lang['lead_unmark_as_lost']              = 'Unmark Lead as lost';
-$lang['lead_marked_as_lost']              = 'Lead marked as lost successfully';
-$lang['lead_unmarked_as_lost']            = 'Lead unmarked as lost successfully';
-$lang['leads_status_color']               = 'Color';
+$lang['lead_merge_custom_field']          = 'Združi kot polje po meri';
+$lang['lead_merge_custom_field_existing'] = 'Združi s poljem podatkovne baze';
+$lang['lead_dont_merge_custom_field']     = 'Ne združi';
+$lang['no_lead_notes_found']              = 'Ni najdenih zglednih opomb.';
+$lang['leads_view_list']                  = 'Seznam';
+$lang['lost_leads']                       = 'Izgubljeni zgledi';
+$lang['junk_leads']                       = 'Neželeni zgledi';
+$lang['lead_mark_as_lost']                = 'Označi kot izgubljeno';
+$lang['lead_unmark_as_lost']              = 'Odznači zgled kot izgubljen';
+$lang['lead_marked_as_lost']              = 'Zgled uspešno označen kot izgubljen.';
+$lang['lead_unmarked_as_lost']            = 'Zgled uspešno odznačen kot izgubljen.';
+$lang['leads_status_color']               = 'Barva';
 
-$lang['lead_mark_as_junk']     = 'Mark as junk';
-$lang['lead_unmark_as_junk']   = 'Unmark Lead as junk';
-$lang['lead_marked_as_junk']   = 'Lead marked as junk successfully';
-$lang['lead_unmarked_as_junk'] = 'Lead unmarked as junk successfully';
+$lang['lead_mark_as_junk']     = 'Označi zgled kot neželen.';
+$lang['lead_unmark_as_junk']   = 'Odznači zgled kot neželen';
+$lang['lead_marked_as_junk']   = 'Zgled uspešno označen kot neželen';
+$lang['lead_unmarked_as_junk'] = 'Zgled uspešno odznačen kot neželen.';
 
-$lang['lead_not_found']                                                      = 'Lead Not Found';
-$lang['lead_lost']                                                           = 'Lost';
-$lang['lead_junk']                                                           = 'Junk';
-$lang['leads_not_assigned']                                                  = 'Not Assigned';
+$lang['lead_not_found']                                                      = 'Zgled ni najden.';
+$lang['lead_lost']                                                           = 'Izgubljem.';
+$lang['lead_junk']                                                           = 'Neželen';
+$lang['leads_not_assigned']                                                  = 'Nedodeljeno';
 # Contacts
+<<<<<<< HEAD
+$lang['contract_not_visible_to_client']                                      = 'Skrij od stranke';
+$lang['contract_edit_overview']                                              = 'Pregled pogodbe';
+=======
 $lang['contract_not_visible_to_client']                                      = 'Hide from customer';
 $lang['contract_edit_overview']                                              = 'Contract Overview';
+>>>>>>> 5ab08360e8b9eb59db8dcd3c74f199e28e6be840
 $lang['contract_attachments']                                                = 'Priponke';
 # Tasks
 $lang['task_view_make_public']                                               = 'Naredi javno';

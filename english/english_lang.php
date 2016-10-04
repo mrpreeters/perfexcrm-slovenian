@@ -998,92 +998,90 @@ $lang['clients_edit_profile_old_password']            = 'Old Password';
 $lang['clients_edit_profile_new_password']            = 'New Password';
 $lang['clients_edit_profile_new_password_repeat']     = 'Repeat Password';
 $lang['clients_edit_profile_change_password_btn']     = 'Change Password';
-$lang['clients_profile_last_changed_password']        = 'Password last changed %s';
+$lang['clients_profile_last_changed_password']        = 'Geslo je nazadnje bilo spremenjeno %s';
 
 # Knowledge base
-$lang['clients_knowledge_base']                    = 'Knowledge Base';
-$lang['clients_knowledge_base_articles_not_found'] = 'No knowledge base articles found';
-$lang['clients_knowledge_base_find_useful']        = 'Did you find this article useful?';
-$lang['clients_knowledge_base_find_useful_yes']    = 'Yes';
-$lang['clients_knowledge_base_find_useful_no']     = 'No';
-$lang['clients_article_only_1_vote_today']         = 'You can vote once in 24 hours';
-$lang['clients_article_voted_thanks_for_feedback'] = 'Thanks for your feedback';
+$lang['clients_knowledge_base']                    = 'Baza znanj';
+$lang['clients_knowledge_base_articles_not_found'] = 'Ni najdene baze znanj';
+$lang['clients_knowledge_base_find_useful']        = 'Je bil članek uporaben?';
+$lang['clients_knowledge_base_find_useful_yes']    = 'Da';
+$lang['clients_knowledge_base_find_useful_no']     = 'Ne';
+$lang['clients_article_only_1_vote_today']         = 'Glasujete lahko enkrat v 24-ih urah';
+$lang['clients_article_voted_thanks_for_feedback'] = 'Hvala za povratno informacijo';
 
 # Tickets
-$lang['clients_ticket_open_subject']                = 'Open Ticket';
-$lang['clients_ticket_open_departments']            = 'Department';
-$lang['clients_tickets_heading']                    = 'Support Tickets';
-$lang['clients_ticket_open_service']                = 'Service';
-$lang['clients_ticket_open_priority']               = 'Priority';
-$lang['clients_latest_tickets']                     = 'Latest Tickets';
-$lang['clients_ticket_open_body']                   = 'Ticket Body';
-$lang['clients_ticket_attachments']                 = 'Attachments';
-$lang['clients_ticket_posted']                      = 'Posted: %s';
-$lang['clients_single_ticket_string']               = 'Ticket';
-$lang['clients_single_ticket_replied']              = 'Replied: %s';
-$lang['clients_single_ticket_informations_heading'] = 'Ticket Informations';
+$lang['clients_ticket_open_subject']                = 'Odpri naročilo';
+$lang['clients_ticket_open_departments']            = 'Oddelek';
+$lang['clients_tickets_heading']                    = 'Podpora naročila';
+$lang['clients_ticket_open_service']                = 'Storitev';
+$lang['clients_ticket_open_priority']               = 'Prioriteta';
+$lang['clients_latest_tickets']                     = 'Zadnja naročila';
+$lang['clients_ticket_open_body']                   = 'Zgradba naročila';
+$lang['clients_ticket_attachments']                 = 'Priponke';
+$lang['clients_ticket_posted']                      = 'Objavljeno: %s';
+$lang['clients_single_ticket_string']               = 'Naročilo';
+$lang['clients_single_ticket_replied']              = 'Odgovorjeno: %s';
+$lang['clients_single_ticket_informations_heading'] = 'Informacija naročila';
 
-$lang['clients_tickets_dt_number']     = 'Ticket #';
-$lang['clients_tickets_dt_subject']    = 'Subject';
-$lang['clients_tickets_dt_department'] = 'Department';
-$lang['clients_tickets_dt_service']    = 'Service';
+$lang['clients_tickets_dt_number']     = 'Naročilo #';
+$lang['clients_tickets_dt_subject']    = 'Tema';
+$lang['clients_tickets_dt_department'] = 'Oddelek';
+$lang['clients_tickets_dt_service']    = 'Storitev';
 $lang['clients_tickets_dt_status']     = 'Status';
-$lang['clients_tickets_dt_last_reply'] = 'Last Reply';
+$lang['clients_tickets_dt_last_reply'] = 'Zadnji odgovor';
 
-$lang['clients_ticket_single_department']        = 'Department: %s';
-$lang['clients_ticket_single_submited']          = 'Submited: %s';
+$lang['clients_ticket_single_department']        = 'Oddelek: %s';
+$lang['clients_ticket_single_submited']          = 'Oddano: %s';
 $lang['clients_ticket_single_status']            = 'Status:';
-$lang['clients_ticket_single_priority']          = 'Priority: %s';
-$lang['clients_ticket_single_add_reply_btn']     = 'Add Reply';
-$lang['clients_ticket_single_add_reply_heading'] = 'Add reply to this ticket';
+$lang['clients_ticket_single_priority']          = 'Prioriteta: %s';
+$lang['clients_ticket_single_add_reply_btn']     = 'Dodaj odgovor';
+$lang['clients_ticket_single_add_reply_heading'] = 'Dodaj odgovor na naročilo';
 
 # Login
-$lang['clients_login_heading_no_register'] = 'Please login';
-$lang['clients_login_heading_register']    = 'Please login or register';
-$lang['clients_login_email']               = 'Email Address';
-$lang['clients_login_password']            = 'Password';
-$lang['clients_login_remember']            = 'Remember me';
-$lang['clients_login_login_string']        = 'Login';
+$lang['clients_login_heading_no_register'] = 'Prijavi se';
+$lang['clients_login_heading_register']    = 'Prijavi se ali se registriri';
+$lang['clients_login_email']               = 'Naslov e-pošte';
+$lang['clients_login_password']            = 'Geslo';
+$lang['clients_login_remember']            = 'Spovni se me';
+$lang['clients_login_login_string']        = 'Prijava';
 
 # Register
-$lang['clients_register_string']  = 'Register';
-$lang['clients_register_heading'] = 'Register';
+$lang['clients_register_string']  = 'Registracija';
+$lang['clients_register_heading'] = 'Registriri se';
 
 # Navigation
-$lang['clients_nav_login']     = 'Login';
-$lang['clients_nav_register']  = 'Register';
-$lang['clients_nav_invoices']  = 'Invoices';
-$lang['clients_nav_contracts'] = 'Contracts';
-$lang['clients_nav_kb']        = 'Knowledge Base';
-$lang['clients_nav_profile']   = 'Profile';
-$lang['clients_nav_logout']    = 'Logout';
+$lang['clients_nav_login']     = 'Prijava';
+$lang['clients_nav_register']  = 'Registriri se';
+$lang['clients_nav_invoices']  = 'Računi';
+$lang['clients_nav_contracts'] = 'Pogodbe';
+$lang['clients_nav_kb']        = 'Baza znanj';
+$lang['clients_nav_profile']   = 'Profil';
+$lang['clients_nav_logout']    = 'Odjava';
 
 # Datatables
-$lang['clients_dt_paginate_first']    = 'First';
-$lang['clients_dt_paginate_last']     = 'Last';
-$lang['clients_dt_paginate_next']     = 'Next';
-$lang['clients_dt_paginate_previous'] = 'Previous';
-$lang['clients_dt_empty_table']       = 'No {0} found';
-$lang['clients_dt_search']            = 'Search:';
-$lang['clients_dt_zero_records']      = 'No matching records found';
-$lang['clients_dt_loading_records']   = 'Loading...';
-$lang['clients_dt_length_menu']       = 'Show _MENU_ ';
-$lang['clients_dt_info_filtered']     = '(filtered from _MAX_ total {0})';
-$lang['clients_dt_info_empty']        = 'Showing 0 to 0 of 0 {0}';
-$lang['clients_dt_info']              = 'Showing _START_ to _END_ of _TOTAL_ {0}';
-$lang['clients_dt_empty_table']       = 'No {0} found';
-$lang['clients_dt_sort_ascending']    = 'activate to sort column ascending';
-$lang['clients_dt_sort_descending']   = 'activate to sort column descending';
-
+$lang['clients_dt_paginate_first']    = 'Prvo';
+$lang['clients_dt_paginate_last']     = 'Zadnje';
+$lang['clients_dt_paginate_next']     = 'Naprej';
+$lang['clients_dt_paginate_previous'] = 'Prejšnje';
+$lang['clients_dt_empty_table']       = 'Ni {0} najdeno';
+$lang['clients_dt_search']            = 'Išči:';
+$lang['clients_dt_zero_records']      = 'Ni ujemajočih zapisov najdenih';
+$lang['clients_dt_loading_records']   = 'Nalaganje...';
+$lang['clients_dt_length_menu']       = 'Prikaži _MENI_ ';
+$lang['clients_dt_info_filtered']     = '(filtriran iz _MAX_ skupaj {0})';
+$lang['clients_dt_info_empty']        = 'Prikaži 0 do 0 od 0 {0}';
+$lang['clients_dt_info']              = 'Prikaži _Začetek_ do _Konec_ od _SKUPNO_ {0}';
+$lang['clients_dt_empty_table']       = 'Ni {0} najdeno';
+$lang['clients_dt_sort_ascending']    = 'Aktiviran glede razvrščanje od najnižjega do najvišjega';
 
 # Version 1.0.1
 # Admin
 #
 # Payments
-$lang['payment_receipt']                               = 'Payment Receipt';
-$lang['payment_for_string']                            = 'Payment For';
-$lang['payment_date']                                  = 'Payment Date:';
-$lang['payment_view_mode']                             = 'Payment Mode:';
+$lang['payment_receipt']                               = 'Račun plačila';
+$lang['payment_for_string']                            = 'Plačilo za';
+$lang['payment_date']                                  = 'Datum plačila:';
+$lang['payment_view_mode']                             = 'Metoda plačila:';
 $lang['payment_total_amount']                          = 'Total Amount';
 $lang['payment_table_invoice_number']                  = 'Invoice Number';
 $lang['payment_table_invoice_date']                    = 'Invoice Date';

@@ -2197,7 +2197,7 @@ $lang['form_validation_is_unique']   = 'The {field} field must contain a unique 
 # Notifications & Leads/Estimates/Invoices Activity Log
 $lang['not_event'] = 'Calendar event today - %s ...';
 $lang['not_event_public'] = 'Public event start today - %s ...';
-$lang['not_contract_expiry_reminder'] = 'Contract expiry reminder - %s ...';
+$lang['not_contract_expiry_reminder'] = 'Datum poteka pogodbe - %s ...';
 $lang['not_recurring_expense_cron_activity_heading'] = 'Recurring Expenses Cron Job Activity';
 $lang['not_recurring_invoices_cron_activity_heading'] = 'Recurring Invoices Cron Job Activity';
 $lang['not_recurring_total_renewed'] = 'Total Renewed: %s';

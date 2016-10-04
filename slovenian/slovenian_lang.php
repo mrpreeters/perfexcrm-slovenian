@@ -1816,15 +1816,15 @@ $lang['task_public_help']                                                    = '
 # Settings
 $lang['settings_general_favicon']                                            = 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Izhodni PDF dokumenti stranke iz skrbnikovega območja v strankinim jeziku';
-$lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Če je ta nastavljena na DA, in ';
-$lang['settings_cron_surveys']                                               = 'Surveys';
-$lang['settings_default_tax']                                                = 'Default Tax';
-$lang['setup_calendar_by_departments']                                       = 'Setup calendar by Departments';
-$lang['settings_calendar']                                                   = 'Calendar';
-$lang['settings_sales_invoice_due_after']                                    = 'Invoice due after (days)';
-$lang['settings_google_api']                                                 = 'Google API Key';
-$lang['settings_gcal_main_calendar_id']                                      = 'Google Calendar ID';
-$lang['settings_gcal_main_calendar_id_help']                                 = 'This is the main company calendar. All events from this calendar will be shown. If you want to specify a calendar based on departments you can add in the department Google Calendar ID.';
+$lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Če je ta nastavljena na DA, in npr. je privzeti jezik sistema angleščina in ima stranka nastavljen jezik na francoščini, bodo PDF dokumenti poslani v strankinem jeziku ';
+$lang['settings_cron_surveys']                                               = 'Ankete';
+$lang['settings_default_tax']                                                = 'Privzeti davek';
+$lang['setup_calendar_by_departments']                                       = 'Nastavi koledar po Oddelkih';
+$lang['settings_calendar']                                                   = 'Koledar';
+$lang['settings_sales_invoice_due_after']                                    = 'Račun zapade po (dneh)';
+$lang['settings_google_api']                                                 = 'Google API ključ';
+$lang['settings_gcal_main_calendar_id']                                      = 'Google koledar ID';
+$lang['settings_gcal_main_calendar_id_help']                                 = 'To je glavni koledar podjetja. Vsi dogodki iz tega koledarja bodo prikazani. Če želite določiti koledar po oddelkih lahko dodate oddelek Google koledar ID.';
 
 $lang['show_on_calendar']                  = 'Show on Calendar';
 $lang['show_invoices_on_calendar']         = 'Invoices';

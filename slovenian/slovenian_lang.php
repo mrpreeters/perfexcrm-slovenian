@@ -1598,10 +1598,10 @@ $lang['goal_type_income_subtext']                                    = 'Income w
 $lang['payment_transaction_id']                                      = 'Transaction ID';
 # Settings Menu
 $lang['acs_expenses']                                                = 'Expenses';
-$lang['acs_expense_categories']                                      = 'Expenses Categories';
+$lang['acs_expense_categories']                                      = 'Kategorija stroškov';
 # Expeneses
-$lang['expense_category']                                            = 'Expense Category';
-$lang['expense_category_lowercase']                                  = 'expense category';
+$lang['expense_category']                                            = 'Kategorija stroškov';
+$lang['expense_category_lowercase']                                  = 'Kategorija stroškov';
 $lang['new_expense']                                                 = 'Record Expense';
 $lang['expense_add_edit_name']                                       = 'Category Name';
 $lang['expense_add_edit_description']                                = 'Category Description';

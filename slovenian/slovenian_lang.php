@@ -1399,7 +1399,7 @@ $lang['clients_estimate_invoiced_successfuly']  = 'Estimate accepted. Here is th
 $lang['clients_estimate_accepted_not_invoiced'] = 'Thank you for accepting this estimate';
 $lang['clients_estimate_declined']              = 'Estimate declined. You can accept the estimate any time before expiry date';
 $lang['clients_estimate_failed_action']         = 'Failed to take action on this estimate';
-$lang['client_add_edit_profile']                = 'Profile';
+$lang['client_add_edit_profile']                = 'Profil';
 
 # Custom Fields
 $lang['custom_field']                          = 'Custom field';

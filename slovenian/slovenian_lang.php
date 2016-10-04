@@ -1398,19 +1398,23 @@ $lang['clients_my_estimates']                   = 'Estimates';
 $lang['clients_estimate_invoiced_successfuly']  = 'Estimate accepted. Here is the invoice from this estimate';
 $lang['clients_estimate_accepted_not_invoiced'] = 'Thank you for accepting this estimate';
 $lang['clients_estimate_declined']              = 'Estimate declined. You can accept the estimate any time before expiry date';
+<<<<<<< HEAD
 $lang['clients_estimate_failed_action']         = 'Failed to take action on this estimate';
+=======
+$lang['clients_estimate_failed_action']         = 'Ni uspelo narediti ocene';
+>>>>>>> fc8bc732eb22ef0ffdb0ad6eee11dabad7ae4ac5
 $lang['client_add_edit_profile']                = 'Profil';
 
 # Custom Fields
-$lang['custom_field']                          = 'Custom field';
-$lang['custom_field_lowercase']                = 'custom field';
-$lang['custom_fields']                         = 'Custom Fields';
-$lang['custom_fields_lowercase']               = 'custom fields';
-$lang['new_custom_field']                      = 'New Custom Field';
-$lang['custom_field_name']                     = 'Field Name';
-$lang['custom_field_add_edit_type']            = 'Type';
-$lang['custom_field_add_edit_belongs_top']     = 'Field Belongs to';
-$lang['custom_field_add_edit_options']         = 'Options';
+$lang['custom_field']                          = 'Polje po meri';
+$lang['custom_field_lowercase']                = 'Polje po meri';
+$lang['custom_fields']                         = 'Polja po meri';
+$lang['custom_fields_lowercase']               = 'Polja po meri';
+$lang['new_custom_field']                      = 'Nova polja';
+$lang['custom_field_name']                     = 'Ime polja';
+$lang['custom_field_add_edit_type']            = 'tip';
+$lang['custom_field_add_edit_belongs_top']     = 'Polje spada';
+$lang['custom_field_add_edit_options']         = 'Možnosti';
 $lang['custom_field_add_edit_options_tooltip'] = 'Only use for Select, Checkbox types. Populate the field by separating the options by coma. eq. apple,orange,banana';
 $lang['custom_field_add_edit_order']           = 'Order';
 
@@ -2398,7 +2402,7 @@ $lang['leads_sort_by_lastcontact'] = 'Last Contact';
 # Tasks
 $lang['task_comment_added'] = 'Comment successfully added';
 $lang['task_duedate'] = 'Due Date';
-$lang['task_view_comments'] = 'Comments';
+$lang['task_view_comments'] = 'Komentarji';
 $lang['task_comment_updated'] = 'Comment updated';
 $lang['task_visible_to_client'] = 'Visible to customer';
 $lang['task_hourly_rate'] = 'Hourly Rate';

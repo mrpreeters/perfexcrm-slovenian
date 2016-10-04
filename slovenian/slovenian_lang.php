@@ -398,45 +398,45 @@ $lang['ticket_priority_add_edit_name'] = 'Priority Name';
 # Reports
 $lang['kb_reports']                         = 'Knowledge base articles reports';
 $lang['sales_reports']                      = 'Sales Reports';
-$lang['reports_choose_kb_group']            = 'Choose Group';
-$lang['reports_sales_select_report_type']   = 'Select Report Type';
-$lang['report_kb_yes']                      = 'Yes';
-$lang['report_kb_no']                       = 'No';
-$lang['report_kb_no_votes']                 = 'No votes yet';
-$lang['report_this_week_leads_conversions'] = 'This Week Leads Conversions';
+$lang['reports_choose_kb_group']            = 'Izberi skupino';
+$lang['reports_sales_select_report_type']   = 'Izberi tip prijave';
+$lang['report_kb_yes']                      = 'Da';
+$lang['report_kb_no']                       = 'Ne';
+$lang['report_kb_no_votes']                 = 'Brez glasov';
+$lang['report_this_week_leads_conversions'] = 'Glavni pogovori tega tedna';
 $lang['report_leads_sources_conversions']   = 'Sources Conversion';
-$lang['report_leads_monthly_conversions']   = 'Monthly';
-$lang['sales_report_heading']               = 'Sales Report';
-$lang['report_sales_type_income']           = 'Total Income';
+$lang['report_leads_monthly_conversions']   = 'Mesečno';
+$lang['sales_report_heading']               = 'Poročilo o prodaji';
+$lang['report_sales_type_income']           = 'Skupni prihodki';
 
-$lang['report_sales_type_customer']                    = 'Customer Report';
-$lang['report_sales_base_currency_select_explanation'] = 'You need to select currency because you have invoices with different currency';
-$lang['report_sales_from_date']                        = 'From Date';
-$lang['report_sales_to_date']                          = 'To Date';
-
-
-$lang['report_sales_months_all_time']      = 'All Time';
-$lang['report_sales_months_six_months']    = 'Last 6 months';
-$lang['report_sales_months_twelve_months'] = 'Last 12 months';
-$lang['report_sales_months_custom']        = 'Custom';
-$lang['reports_sales_generated_report']    = 'Generated Report';
+$lang['report_sales_type_customer']                    = 'Poročila uporabnikov';
+$lang['report_sales_base_currency_select_explanation'] = 'Izbrati morate valuto, ker imate račune z različnimi valutami';
+$lang['report_sales_from_date']                        = 'Od';
+$lang['report_sales_to_date']                          = 'Do';
 
 
+$lang['report_sales_months_all_time']      = 'Ves čas';
+$lang['report_sales_months_six_months']    = 'Zadnjih 6 mesecev';
+$lang['report_sales_months_twelve_months'] = 'Zadnjih 12 mesecev';
+$lang['report_sales_months_custom']        = 'Po meri';
+$lang['reports_sales_generated_report']    = 'Generirano poročilo';
 
-$lang['reports_sales_dt_customers_client']                = 'Customer';
-$lang['reports_sales_dt_customers_total_invoices']        = 'Total Invoices';
-$lang['reports_sales_dt_items_customers_amount']          = 'Amount';
-$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Amount with Tax';
+
+
+$lang['reports_sales_dt_customers_client']                = 'Stranka';
+$lang['reports_sales_dt_customers_total_invoices']        = 'Skupno število računov';
+$lang['reports_sales_dt_items_customers_amount']          = 'Znesek';
+$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Znesek z davkom';
 
 # Roles
-$lang['new_role']           = 'New Role';
-$lang['all_roles']          = 'All Role';
-$lang['roles']              = 'Staff Roles';
-$lang['role']               = 'Role';
-$lang['role_lowercase']     = 'role';
-$lang['roles_total_users']  = 'Total Users: ';
-$lang['roles_dt_name']      = 'Role Name';
-$lang['role_add_edit_name'] = 'Role Name';
+$lang['new_role']           = 'Nova vloga';
+$lang['all_roles']          = 'Vse vloge';
+$lang['roles']              = 'Vloge osebja';
+$lang['role']               = 'Vloga';
+$lang['role_lowercase']     = 'vloga';
+$lang['roles_total_users']  = 'Skupno število uporabnikov: ';
+$lang['roles_dt_name']      = 'Ime vloge';
+$lang['role_add_edit_name'] = 'ime Vloge';
 
 # Service
 $lang['new_service']           = 'New Service';

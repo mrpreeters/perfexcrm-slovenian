@@ -1380,7 +1380,6 @@ $lang['clients_estimate_accepted_not_invoiced'] = 'Thank you for accepting this 
 $lang['clients_estimate_declined']              = 'Estimate declined. You can accept the estimate any time before expiry date';
 $lang['clients_estimate_failed_action']         = 'Failed to take action on this estimate';
 $lang['client_add_edit_profile']                = 'Profile';
-
 $lang['clients_estimate_failed_action']         = 'Ni uspelo narediti ocene';
 $lang['client_add_edit_profile']                = 'Profil';
 
@@ -1931,7 +1930,6 @@ $lang['lead_email_activity']                                         = 'Email Ac
 $lang['leads_email_integration_notify_roles']                        = 'Roles to Notify';
 $lang['leads_email_integration_notify_staff']                        = 'Staff Members to Notify';
 $lang['lead_public']                                                 = 'Public';
-=======
 $lang['lead_profile']                                                = 'Profil';
 $lang['lead_is_client']                                              = 'Stranka';
 $lang['leads_kan_ban_notes_title']                                   = 'Zapiski';

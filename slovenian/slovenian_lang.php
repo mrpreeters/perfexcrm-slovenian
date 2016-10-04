@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 # Version 1.0.0
 #
 # General
@@ -200,13 +200,13 @@ $lang['newsfeed_unpin_post']                                = 'Unpin post';
 $lang['newsfeed_delete_post']                               = 'Izbriši';
 $lang['newsfeed_published_post']                            = 'Objavljeno';
 $lang['newsfeed_you_like_this']                             = 'To vam je všeč';
-$lang['newsfeed_like_this']                                 = 'všečkajte to';
+$lang['newsfeed_like_this']                                 = 'Všeč mi je';
 $lang['newsfeed_one_other']                                 = 'ostalo';
 $lang['newsfeed_you']                                       = 'Ti';
 $lang['newsfeed_and']                                       = 'in';
 $lang['newsfeed_you_and']                                   = 'Ti in';
-$lang['newsfeed_like_this_saying']                          = 'Všečkajte to';
-$lang['newsfeed_unlike_this_saying']                        = 'Odvšečkajte to';
+$lang['newsfeed_like_this_saying']                          = 'Všeč mi je';
+$lang['newsfeed_unlike_this_saying']                        = 'Ni mi všeč';
 $lang['newsfeed_show_more_comments']                        = 'Prikaži več komentarjev';
 $lang['comment_this_post_placeholder']                      = 'Komentiraj to objavo..';
 $lang['newsfeed_post_likes_modal_heading']                  = 'Sodelavci katerim je všeč ta objava';

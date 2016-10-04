@@ -1827,15 +1827,15 @@ $lang['settings_gcal_main_calendar_id']                                      = '
 $lang['settings_gcal_main_calendar_id_help']                                 = 'To je glavni koledar podjetja. Vsi dogodki iz tega koledarja bodo prikazani. Če želite določiti koledar po oddelkih lahko dodate oddelek Google koledar ID.';
 
 $lang['show_on_calendar']                  = 'Pokaži na koledarju';
-$lang['show_invoices_on_calendar']         = 'Invoices';
-$lang['show_estimates_on_calendar']        = 'Estimates';
-$lang['show_contracts_on_calendar']        = 'Contracts';
-$lang['show_tasks_on_calendar']            = 'Tasks';
-$lang['show_customer_reminders_on_calendar'] = 'Customer Reminders';
+$lang['show_invoices_on_calendar']         = 'Računi';
+$lang['show_estimates_on_calendar']        = 'Ocene';
+$lang['show_contracts_on_calendar']        = 'Pogodbe';
+$lang['show_tasks_on_calendar']            = 'Naloge';
+$lang['show_customer_reminders_on_calendar'] = 'Opomnik strank';
 
 # Leads
-$lang['copy_custom_fields_convert_to_customer']                      = 'Copy custom fields to customer profile';
-$lang['copy_custom_fields_convert_to_customer_help']                 = 'If any of the following custom fields do not exists for customer will be auto created with the same name otherwise only the value will be copied from the lead profile.';
+$lang['copy_custom_fields_convert_to_customer']                      = 'Kopiraj po meri polja na uporabnikov profil';
+$lang['copy_custom_fields_convert_to_customer_help']                 = 'Če katero od sledečih po meri polj ne obstaja za stranko, bodo avtomatsko kreirana s enakim imenom, drugače bo samo vrednost kopirana iz glavnega profila.';
 $lang['lead_profile']                                                = 'Profile';
 $lang['lead_is_client']                                              = 'Customer';
 $lang['leads_kan_ban_notes_title']                                   = 'Notes';

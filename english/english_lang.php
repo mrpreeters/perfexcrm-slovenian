@@ -1078,10 +1078,10 @@ $lang['clients_dt_sort_ascending']    = 'Aktiviran glede razvrščanje od najni�
 # Admin
 #
 # Payments
-$lang['payment_receipt']                               = 'Payment Receipt';
-$lang['payment_for_string']                            = 'Payment For';
-$lang['payment_date']                                  = 'Payment Date:';
-$lang['payment_view_mode']                             = 'Payment Mode:';
+$lang['payment_receipt']                               = 'Račun plačila';
+$lang['payment_for_string']                            = 'Plačilo za';
+$lang['payment_date']                                  = 'Datum plačila:';
+$lang['payment_view_mode']                             = 'Metoda plačila:';
 $lang['payment_total_amount']                          = 'Total Amount';
 $lang['payment_table_invoice_number']                  = 'Invoice Number';
 $lang['payment_table_invoice_date']                    = 'Invoice Date';

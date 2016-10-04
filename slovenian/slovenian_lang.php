@@ -1826,7 +1826,7 @@ $lang['settings_google_api']                                                 = '
 $lang['settings_gcal_main_calendar_id']                                      = 'Google koledar ID';
 $lang['settings_gcal_main_calendar_id_help']                                 = 'To je glavni koledar podjetja. Vsi dogodki iz tega koledarja bodo prikazani. Če želite določiti koledar po oddelkih lahko dodate oddelek Google koledar ID.';
 
-$lang['show_on_calendar']                  = 'Show on Calendar';
+$lang['show_on_calendar']                  = 'Pokaži na koledarju';
 $lang['show_invoices_on_calendar']         = 'Invoices';
 $lang['show_estimates_on_calendar']        = 'Estimates';
 $lang['show_contracts_on_calendar']        = 'Contracts';

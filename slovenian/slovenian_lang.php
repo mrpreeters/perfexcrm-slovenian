@@ -1798,21 +1798,21 @@ $lang['leads_not_assigned']                                                  = '
 # Contacts
 $lang['contract_not_visible_to_client']                                      = 'Hide from customer';
 $lang['contract_edit_overview']                                              = 'Contract Overview';
-$lang['contract_attachments']                                                = 'Attachments';
+$lang['contract_attachments']                                                = 'Priponke';
 # Tasks
-$lang['task_view_make_public']                                               = 'Make public';
-$lang['task_is_private']                                                     = 'Private Task';
-$lang['task_finished']                                                       = 'Finished';
-$lang['task_single_related']                                                 = 'Related';
-$lang['task_unmark_as_complete']                                             = 'Unmark as complete';
-$lang['task_unmarked_as_complete']                                           = 'Task unmarked as complete';
-$lang['task_relation']                                                       = 'Related';
-$lang['task_public']                                                         = 'Public';
-$lang['task_public_help']                                                    = 'If you set this task to public will be visible for all staff members. Otherwise will be only visible to members who are assignees,followers,creator or administrators';
+$lang['task_view_make_public']                                               = 'Naredi javno';
+$lang['task_is_private']                                                     = 'Zasebna naloga';
+$lang['task_finished']                                                       = 'Končano';
+$lang['task_single_related']                                                 = 'Povezane';
+$lang['task_unmark_as_complete']                                             = 'Odznači kot končano';
+$lang['task_unmarked_as_complete']                                           = 'Naloga odznačena kot končana';
+$lang['task_relation']                                                       = 'Povezane';
+$lang['task_public']                                                         = 'Javno ';
+$lang['task_public_help']                                                    = 'Če ste nalogo nastavili kot javno, bo vidno za vso osebje. Drugače bo vidno samo za osebje, ki so prevzemniki, sledilci in avtorji ali skrbniki';
 # Settings
 $lang['settings_general_favicon']                                            = 'Favicon';
-$lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Output client PDF documents from admin area in client language';
-$lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'If this options is set to yes and eq. the system default language is english and client have setup language french the pdf documents will be outputed in the client language';
+$lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Izhodni PDF dokumenti stranke iz skrbnikovega območja v strankinim jeziku';
+$lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Če je ta nastavljena na DA, in ';
 $lang['settings_cron_surveys']                                               = 'Surveys';
 $lang['settings_default_tax']                                                = 'Default Tax';
 $lang['setup_calendar_by_departments']                                       = 'Setup calendar by Departments';

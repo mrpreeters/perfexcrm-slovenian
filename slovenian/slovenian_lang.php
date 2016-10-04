@@ -1384,7 +1384,6 @@ $lang['client_add_edit_profile']                = 'Profile';
 $lang['clients_estimate_failed_action']         = 'Ni uspelo narediti ocene';
 $lang['client_add_edit_profile']                = 'Profil';
 
-
 # Custom Fields
 $lang['custom_field']                          = 'Custom field';
 $lang['custom_field_lowercase']                = 'custom field';
@@ -1586,12 +1585,20 @@ $lang['acs_expenses']                                                = 'Expenses
 $lang['acs_expense_categories']                                      = 'Expenses Categories';
 # Expeneses
 
+$lang['acs_expenses']                                                = 'Expenses';
+$lang['acs_expense_categories']                                      = 'Expenses Categories';
+# Expeneses
+
 $lang['acs_expenses']                                                = 'Stroški';
 $lang['acs_expense_categories']                                      = 'Kategorija stroškov';
 # Expeneses
 $lang['expense_category']                                            = 'Kategorija stroškov';
 $lang['expense_category_lowercase']                                  = 'Kategorija stroškov';
+
 $lang['new_expense']                                                 = 'Zapis stroška';
+
+$lang['new_expense']                                                 = 'Zapis stroška';
+
 $lang['expense_add_edit_name']                                       = 'Ime kategorije';
 $lang['expense_add_edit_description']                                = 'Opis kategorije';
 $lang['expense_categories']                                          = 'Kategorije stroškov';
@@ -1638,6 +1645,10 @@ $lang['expense_not_billed']                                          = 'Faktura 
 $lang['expense_customer']                                            = 'Stranka';
 $lang['expense_note']                                                = 'Opomba:';
 $lang['expense_date']                                                = 'Datum:';
+
+$lang['acs_expenses']                                                = 'Expenses';
+$lang['acs_expense_categories']                                      = 'Expenses Categories';
+# Expeneses
 
 $lang['acs_expenses']                                                = 'Expenses';
 $lang['acs_expense_categories']                                      = 'Expenses Categories';
@@ -1790,7 +1801,11 @@ $lang['customer_update_address_info_on_invoices']              = 'Posodobi podat
 $lang['customer_update_address_info_on_invoices_help']         = 'Če obkljukate to polje, bodo informacije o plačilu in dostavi posodobljene pri vseh fakturah in ocenah. Opomba: Fakture s statusom:plačano ne bodo spremenjene.';
 $lang['setup_google_api_key_customer_map']                     = 'Nastavite google api ključ, da lahko vidite mapo stranke.';
 $lang['customer_attachments_file']                             = 'Datoteka';
+
 $lang['client_send_set_password_email']                        = 'Pošlji mail za nastavitev gesla';
+
+$lang['client_send_set_password_email']                        = 'Pošlji mail za nastavitev gesla';
+
 $lang['customer_billing_same_as_profile']                      = 'Enako kot informacije';
 $lang['customer_billing_copy']                                 = 'Kopiraj naslov za plačilo';
 $lang['customer_map']                                          = 'Mapa';
@@ -1841,6 +1856,13 @@ $lang['lead_junk']                                                           = '
 $lang['leads_not_assigned']                                                  = 'Nedodeljeno';
 # Contacts
 
+
+$lang['contract_not_visible_to_client']                                      = 'Skrij od stranke';
+$lang['contract_edit_overview']                                              = 'Pregled pogodbe';
+
+$lang['contract_not_visible_to_client']                                      = 'Hide from customer';
+$lang['contract_edit_overview']                                              = 'Contract Overview';
+
 $lang['contract_not_visible_to_client']                                      = 'Skrij od stranke';
 $lang['contract_edit_overview']                                              = 'Pregled pogodbe';
 
@@ -1881,6 +1903,7 @@ $lang['show_customer_reminders_on_calendar'] = 'Opomnik strank';
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = 'Kopiraj po meri polja na uporabnikov profil';
 $lang['copy_custom_fields_convert_to_customer_help']                 = 'Če katero od sledečih po meri polj ne obstaja za stranko, bodo avtomatsko kreirana s enakim imenom, drugače bo samo vrednost kopirana iz glavnega profila.';
+
 $lang['lead_profile']                                                = 'Profile';
 $lang['lead_is_client']                                              = 'Customer';
 $lang['leads_kan_ban_notes_title']                                   = 'Notes';
@@ -1908,145 +1931,174 @@ $lang['lead_email_activity']                                         = 'Email Ac
 $lang['leads_email_integration_notify_roles']                        = 'Roles to Notify';
 $lang['leads_email_integration_notify_staff']                        = 'Staff Members to Notify';
 $lang['lead_public']                                                 = 'Public';
+=======
+$lang['lead_profile']                                                = 'Profil';
+$lang['lead_is_client']                                              = 'Stranka';
+$lang['leads_kan_ban_notes_title']                                   = 'Zapiski';
+$lang['leads_email_integration_folder_no_encryption']                = 'Brez šifriranja ';
+$lang['leads_email_integration']                                     = 'E-pošta integracija';
+$lang['leads_email_active']                                          = 'Aktiven';
+$lang['leads_email_integration_imap']                                = 'IMAP strežnik';
+$lang['leads_email_integration_email']                               = 'E-poštni naslov (Prijava)';
+$lang['leads_email_integration_password']                            = 'Geslo';
+$lang['leads_email_integration_default_source']                      = 'Privzeti vir';
+$lang['leads_email_integration_check_every']                         = 'Preveri vsako (minuto)';
+$lang['leads_email_integration_default_assigned']                    = 'Odgovorni za novi zgled';
+$lang['leads_email_encryption']                                      = 'Šifriranje';
+$lang['leads_email_integration_updated']                             = 'E-poštna integracija posodobljena';
+$lang['leads_email_integration_default_status']                      = 'Privzeto stanje';
+$lang['leads_email_integration_folder']                              = 'Mapa';
+$lang['leads_email_integration_notify_when_lead_imported']           = 'Obvesti, ko je zgled uvožen';
+$lang['leads_email_integration_only_check_unseen_emails']            = 'Preveri samo nepregledana e-sporočila';
+$lang['leads_email_integration_only_check_unseen_emails_help']       = 'Skripta bo avtomatsko nastavila e-sporočilo na odprtu po pregledu. To je uporabljeno za preprečitev preverjanja e-sporočil znova in znova. Ni priporočeno, odznačiti to možnost, če imate veliko e- sporočil in ste nastavili veliko posredovanja za e-pošto, za vaše zglede';
+$lang['leads_email_integration_notify_when_lead_contact_more_times'] = 'Obvesti, če je zgled poslal več e-sporočil';
+$lang['leads_email_integration_test_connection']                     = 'Testiraj IMAP povezavo';
+$lang['lead_email_connection_ok']                                    = 'IMAP povezava je vredu';
+$lang['lead_email_connection_not_ok']                                = 'IMAP povezava ni vredu';
+$lang['lead_email_activity']                                         = 'E-poštna aktivnost';
+$lang['leads_email_integration_notify_roles']                        = 'Vloge za obvestila';
+$lang['leads_email_integration_notify_staff']                        = 'Osebje za obvestiti';
+$lang['lead_public']                                                 = 'Javno';
+>>>>>>> e62936925c46152af995d3d5a41984d9e4a6ca4d
 # Knowledge Base
 
-$lang['kb_group_color']                = 'Color';
-$lang['kb_group_order']                = 'Order';
+$lang['kb_group_color']                = 'Barva';
+$lang['kb_group_order']                = 'Ukaz';
 # Utilities - BULK PDF Exporter
-$lang['bulk_pdf_exporter']             = 'Bulk PDF Exporter';
-$lang['bulk_export_pdf_payments']      = 'Payments';
-$lang['bulk_export_pdf_estimates']     = 'Estimates';
-$lang['bulk_export_pdf_invoices']      = 'Invoices';
-$lang['bulk_pdf_export_button']        = 'Export';
-$lang['bulk_pdf_export_select_type']   = 'Select Type';
-$lang['no_data_found_bulk_pdf_export'] = 'No data found for export';
-$lang['bulk_export_status_all']        = 'All';
-$lang['bulk_export_status']            = 'Status';
-$lang['bulk_export_zip_payment_modes'] = 'Made payments by';
-$lang['bulk_export_include_tag']       = 'Include Tag';
-$lang['bulk_export_include_tag_help']  = 'eq. Original or Copy. The tag will be outputed in the PDF. Recomended to use only 1 tag';
+$lang['bulk_pdf_exporter']             = 'Bulk PDF izvoznik';
+$lang['bulk_export_pdf_payments']      = 'Plačila';
+$lang['bulk_export_pdf_estimates']     = 'Ocene';
+$lang['bulk_export_pdf_invoices']      = 'Računi';
+$lang['bulk_pdf_export_button']        = 'Izvoz';
+$lang['bulk_pdf_export_select_type']   = 'Izberi tip';
+$lang['no_data_found_bulk_pdf_export'] = 'Ni najdenega datuma za izvoz';
+$lang['bulk_export_status_all']        = 'Vse';
+$lang['bulk_export_status']            = 'Stanje';
+$lang['bulk_export_zip_payment_modes'] = 'Izvedi plačila po ';
+$lang['bulk_export_include_tag']       = 'Vključi oznake';
+$lang['bulk_export_include_tag_help']  = 'Naprimer original ali kopija. Oznaka bo izdana v PDF-ju. Priporočljivo uporabiti le eno oznako.';
 # Predefined replies
-$lang['no_predefined_replies_found']   = 'No predefined replies found';
+$lang['no_predefined_replies_found']   = 'Ni vnaprej določenih odgovorov';
 ## Clients area
-$lang['clients_contract_attachments']  = 'Attachments';
+$lang['clients_contract_attachments']  = 'Priponke';
 # Backup
-$lang['backup_type_full']              = 'Full Backup';
-$lang['backup_type_db']                = 'Database Backup';
+$lang['backup_type_full']              = 'Popolna varnostna kopija';
+$lang['backup_type_db']                = 'Varnostna kopija podatkovne baze';
 
-$lang['auto_backup_options_updated']     = 'Auto backup options updated';
-$lang['auto_backup_every']               = 'Create backup every X days';
-$lang['auto_backup_enabled']             = 'Enabled (Requires Cron)';
-$lang['auto_backup']                     = 'Auto backup';
-$lang['backup_delete']                   = 'Backup Deleted';
-$lang['create_backup']                   = 'Create Backup';
-$lang['backup_success']                  = 'Backup is made successfully';
-$lang['utility_backup']                  = 'Database Backup';
-$lang['utility_create_new_backup_db']    = 'Create Database Backup';
-$lang['utility_backup_table_backupname'] = 'Backup';
-$lang['utility_backup_table_backupsize'] = 'Backup size';
-$lang['utility_backup_table_backupdate'] = 'Date';
-$lang['utility_db_backup_note']          = 'Note: Due to the limited execution time and memory available to PHP, backing up very large databases may not be possible. If your database is very large you might need to backup directly from your SQL server via the command line, or have your server admin do it for you if you do not have root privileges.';
+$lang['auto_backup_options_updated']     = 'Posodbljena avtomatska varnostna kopija';
+$lang['auto_backup_every']               = 'Naredi varnostno kopijo vsakih X dni';
+$lang['auto_backup_enabled']             = 'Omogočena (zahteva cron)';
+$lang['auto_backup']                     = 'avtomatska varnostna kopija';
+$lang['backup_delete']                   = 'Varnostna kopija izbrisana';
+$lang['create_backup']                   = 'Ustvari varnostno kopijo';
+$lang['backup_success']                  = 'Varnostna kopija je narejena uspešno';
+$lang['utility_backup']                  = 'Varnostna kopija podatkovne baze';
+$lang['utility_create_new_backup_db']    = 'Ustvari varnostno kopijo podatkovne baze';
+$lang['utility_backup_table_backupname'] = 'Varnostna kopija';
+$lang['utility_backup_table_backupsize'] = 'Velikost varnostne kopije';
+$lang['utility_backup_table_backupdate'] = 'Datum';
+$lang['utility_db_backup_note']          = 'Opomba: Zaradi omejenega odzivnega časa, in količine spomina v PHP-ju, varnostno kopiranje zelo velikih podatkovnih baz morda ni mogoče. Če je vaša podatkovna baza zelo velika, boste morda potrebovali narediti varnostno kopiji direktno iz vašega SQL strežnika preko komandne vrstice ali vam jo naredi skrbnik če nimate pravic.';
 
 # Version 1.0.7
 ## Customers - portal
-$lang['clients_nav_proposals'] = 'Proposals';
-$lang['clients_nav_support']   = 'Support';
+$lang['clients_nav_proposals'] = 'Zahteve';
+$lang['clients_nav_support']   = 'Podpora';
 # General
-$lang['more']                  = 'More';
-$lang['add_item']              = 'Add Item';
-$lang['goto_admin_area']       = 'Go to admin area';
-$lang['click_here_to_edit']    = 'Click here to edit';
-$lang['delete']                = 'Delete %s';
-$lang['welcome_top']           = 'Welcome %s';
+$lang['more']                  = 'Več';
+$lang['add_item']              = 'Dodaj predmet';
+$lang['goto_admin_area']       = 'Pojdi v skrbiški oddelek';
+$lang['click_here_to_edit']    = 'Klikni tukaj za urejanje';
+$lang['delete']                = 'Izbriši %s';
+$lang['welcome_top']           = 'Dobrodošli %s';
 
 # Customers
-$lang['customer_permissions']         = 'Permissions';
-$lang['customer_permission_invoice']  = 'Invoices';
-$lang['customer_permission_estimate'] = 'Estimate';
-$lang['customer_permission_proposal'] = 'Proposals';
-$lang['customer_permission_contract'] = 'Contracts';
-$lang['customer_permission_support']  = 'Support';
+$lang['customer_permissions']         = 'Pravice';
+$lang['customer_permission_invoice']  = 'Računi';
+$lang['customer_permission_estimate'] = 'Ocena';
+$lang['customer_permission_proposal'] = 'Zahteve';
+$lang['customer_permission_contract'] = 'Pogodbe';
+$lang['customer_permission_support']  = 'Podpora';
 
 
 #Tasks
-$lang['task_related_to'] = 'Related To';
+$lang['task_related_to'] = 'Navezujoč se';
 
 # Send file
-$lang['custom_file_fail_send']    = 'Failed to send file';
-$lang['custom_file_success_send'] = 'The file is successfully send to %s';
-$lang['send_file_subject']        = 'Email Subject';
-$lang['send_file_email']          = 'Email Address';
-$lang['send_file_message']        = 'Message';
-$lang['send_file']                = 'Send File';
-$lang['add_checklist_item']       = 'Checklist Item';
-$lang['task_checklist_items']     = 'Checklist Items';
+$lang['custom_file_fail_send']    = 'Ni uspelo poslati datoteke';
+$lang['custom_file_success_send'] = 'Datoteka je bila uspešno poslana  %s';
+$lang['send_file_subject']        = 'E-poštni predmet';
+$lang['send_file_email']          = 'E-poštni naslov';
+$lang['send_file_message']        = 'Sporočilo';
+$lang['send_file']                = 'Pošlji datoteko';
+$lang['add_checklist_item']       = 'Kontrolni element';
+$lang['task_checklist_items']     = 'Kontrolni element';
 
 # Import
-$lang['default_pass_clients_import'] = 'Default password for all contacts';
-$lang['simulate_import']             = 'Simulate Import';
-$lang['import_upload_failed']        = 'Upload Failed';
-$lang['import_total_imported']       = 'Total Imported: %s';
-$lang['import_leads']                = 'Import Leads';
-$lang['import_customers']            = 'Import Customers';
-$lang['choose_csv_file']             = 'Choose CSV File';
-$lang['import']                      = 'Import';
-$lang['lead_import_status']          = 'Status';
-$lang['lead_import_source']          = 'Source';
+$lang['default_pass_clients_import'] = 'Privzeto geslo za vse kontakte';
+$lang['simulate_import']             = 'Simuliraj uvoz';
+$lang['import_upload_failed']        = 'Nalaganje ni bilo uspešno';
+$lang['import_total_imported']       = 'Skupno uvoženo: %s';
+$lang['import_leads']                = 'Uvozi zglede';
+$lang['import_customers']            = 'Uvozi stranke';
+$lang['choose_csv_file']             = 'Izberi CSV datoteke';
+$lang['import']                      = 'Uvozi';
+$lang['lead_import_status']          = 'Stanje';
+$lang['lead_import_source']          = 'Vir';
 
 # Bulk PDF Export
-$lang['bulk_export_pdf_proposals'] = 'Proposals';
+$lang['bulk_export_pdf_proposals'] = 'Zahteve';
 
 # Invoices
-$lang['delete_invoice'] = 'Delete';
+$lang['delete_invoice'] = 'Izbriši';
 
 # Calendar
-$lang['calendar_lead_reminder'] = 'Lead Reminder';
+$lang['calendar_lead_reminder'] = 'Opomnik zgledov';
 
-$lang['items']      = 'Items';
-$lang['support']    = 'Support';
-$lang['new_ticket'] = 'New Ticket';
+$lang['items']      = 'Predmeti';
+$lang['support']    = 'Podpora';
+$lang['new_ticket'] = 'Nov kupon';
 
 # Reminders
-$lang['client_edit_set_reminder_title'] = 'Add customer reminder';
-$lang['lead_set_reminder_title']        = 'Add lead reminder';
-$lang['set_reminder_tooltip']           = 'This option allows you to never forget anything about your customers.';
-$lang['client_reminders_tab']           = 'Reminders';
-$lang['leads_reminders_tab']            = 'Reminders';
+$lang['client_edit_set_reminder_title'] = 'Dodaj opomnik strank';
+$lang['lead_set_reminder_title']        = 'Dodaj opomnik zgledov';
+$lang['set_reminder_tooltip']           = 'Ta možnost vam omogoča da nikoli ne pozabite nič o strankah.';
+$lang['client_reminders_tab']           = 'Opomini';
+$lang['leads_reminders_tab']            = 'Opomini';
 
 # Tickets
-$lang['delete_ticket_reply']  = 'Delete Reply';
-$lang['ticket_priority_edit'] = 'Edit Priority';
-$lang['ticket_priority_add']  = 'Add Priority';
-$lang['ticket_status_edit']   = 'Edit Ticket Status';
-$lang['ticket_service_edit']  = 'Edit Ticket Service';
-$lang['edit_department']      = 'Edit Department';
+$lang['delete_ticket_reply']  = 'Izbriši odgovor';
+$lang['ticket_priority_edit'] = 'Uredi prioritete';
+$lang['ticket_priority_add']  = 'Dodaj prioritete';
+$lang['ticket_status_edit']   = 'Uredi status kupončka';
+$lang['ticket_service_edit']  = 'Uredi servis kupončka';
+$lang['edit_department']      = 'EUrejevalni oddelek';
 
 # Expenses
-$lang['edit_expense_category']                                    = 'Edit Expense Category';
+$lang['edit_expense_category']                                    = 'Uredi kategorijo stroški';
 # Settings
-$lang['customer_default_country']                                 = 'Default Country';
-$lang['settings_sales_require_client_logged_in_to_view_estimate'] = 'Require client to be logged in to view estimate';
-$lang['set_reminder']                                             = 'Set Reminder';
-$lang['set_reminder_date']                                        = 'Date to be notified';
-$lang['reminder_description']                                     = 'Set description';
-$lang['reminder_notify_me_by_email']                              = 'Send also an email for this reminder';
-$lang['reminder_added_successfuly']                               = 'Reminder added successfully. You will be notified in time.';
-$lang['reminder_description']                                     = 'Description';
-$lang['reminder_date']                                            = 'Date';
-$lang['reminder_staff']                                           = 'Remind';
-$lang['reminder_is_notified']                                     = 'Is notified?';
-$lang['reminder_is_notified_boolean_no']                          = 'No';
-$lang['reminder_is_notified_boolean_yes']                         = 'Yes';
-$lang['reminder_set_to']                                          = 'Set reminder to';
-$lang['reminder_deleted']                                         = 'Reminder deleted successfully';
-$lang['reminder_failed_to_delete']                                = 'Failed to delete the reminder';
-$lang['show_invoice_estimate_status_on_pdf']                      = 'Show invoice/estimate status on PDF';
-$lang['email_piping_default_priority']                            = 'Default priority on piped ticket';
-$lang['show_lead_reminders_on_calendar']                          = 'Lead Reminders';
-$lang['tickets_piping']                                           = 'Email Piping';
-$lang['email_piping_only_replies']                                = 'Only Replies Allowed by Email';
-$lang['email_piping_only_registered']                             = 'Pipe Only on Registed Users';
-$lang['email_piping_enabled']                                     = 'Enabled';
+$lang['customer_default_country']                                 = 'Privzeta država ';
+$lang['settings_sales_require_client_logged_in_to_view_estimate'] = 'Zahtevani uporabnik mora biti prijavljen za oceno';
+$lang['set_reminder']                                             = 'Nastavi opomnik';
+$lang['set_reminder_date']                                        = 'Datum opomina';
+$lang['reminder_description']                                     = 'Nastavi opis';
+$lang['reminder_notify_me_by_email']                              = 'Pošljio e-sporočilo za ta opomnik';
+$lang['reminder_added_successfuly']                               = 'Opomnik dodan uspešno. Obveščeni boste ob času.';
+$lang['reminder_description']                                     = 'Opis';
+$lang['reminder_date']                                            = 'Datum';
+$lang['reminder_staff']                                           = 'Opomni';
+$lang['reminder_is_notified']                                     = 'Je opomnjen?';
+$lang['reminder_is_notified_boolean_no']                          = 'Ne';
+$lang['reminder_is_notified_boolean_yes']                         = 'Da';
+$lang['reminder_set_to']                                          = 'Nastavi opomnik na';
+$lang['reminder_deleted']                                         = 'Opomnik izbrisan uspešno';
+$lang['reminder_failed_to_delete']                                = 'Neuspešno izbrisan opomnik';
+$lang['show_invoice_estimate_status_on_pdf']                      = 'Pokaži račune/ocene v PDF-ju';
+$lang['email_piping_default_priority']                            = 'Nastavi prioriteto na prenesene kupončke';
+$lang['show_lead_reminders_on_calendar']                          = 'Opomnik zgledov';
+$lang['tickets_piping']                                           = 'Prenesena e-sporočila';
+$lang['email_piping_only_replies']                                = 'Dovoljeni odgovori samo preko e-pošte';
+$lang['email_piping_only_registered']                             = 'Prenesi samo registrirane uporabnike';
+$lang['email_piping_enabled']                                     = 'Omogoči';
 
 # Estimates
 $lang['view_estimate_as_client']         = 'View estimate as customer';
@@ -2445,7 +2497,6 @@ $lang['lead_kan_ban_attachments'] = 'Attachments: %s';
 $lang['leads_sort_by_lastcontact'] = 'Last Contact';
 
 # Tasks
-
 $lang['task_comment_added'] = 'Uspešno dodan komentar';
 $lang['task_duedate'] = 'Datum zapadlosti';
 $lang['task_view_comments'] = 'Komentarji';
@@ -2469,7 +2520,6 @@ $lang['task_total_logged_time'] = 'Skupni prijavljeni čas:';
 $lang['task_is_billed'] = 'To nalogo se zaračuna s številko %s';
 $lang['task_statistics'] = 'Statistica';
 $lang['task_milestone'] = 'Mejnik';
-
 $lang['task_comment_added'] = 'Comment successfully added';
 $lang['task_duedate'] = 'Due Date';
 $lang['task_view_comments'] = 'Comments';
@@ -2493,8 +2543,6 @@ $lang['task_total_logged_time'] = 'Total logged time:';
 $lang['task_is_billed'] = 'This task is billed on invoice with number %s';
 $lang['task_statistics'] = 'Statistics';
 $lang['task_milestone'] = 'Milestone';
-
-
 # Tickets
 $lang['ticket_message_updated_successfuly'] = 'Sporočilo uspešno posodobljeno';
 

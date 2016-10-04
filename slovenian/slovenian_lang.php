@@ -1398,7 +1398,11 @@ $lang['clients_my_estimates']                   = 'Estimates';
 $lang['clients_estimate_invoiced_successfuly']  = 'Estimate accepted. Here is the invoice from this estimate';
 $lang['clients_estimate_accepted_not_invoiced'] = 'Thank you for accepting this estimate';
 $lang['clients_estimate_declined']              = 'Estimate declined. You can accept the estimate any time before expiry date';
+<<<<<<< HEAD
+$lang['clients_estimate_failed_action']         = 'Failed to take action on this estimate';
+=======
 $lang['clients_estimate_failed_action']         = 'Ni uspelo narediti ocene';
+>>>>>>> fc8bc732eb22ef0ffdb0ad6eee11dabad7ae4ac5
 $lang['client_add_edit_profile']                = 'Profil';
 
 # Custom Fields
@@ -2398,7 +2402,7 @@ $lang['leads_sort_by_lastcontact'] = 'Last Contact';
 # Tasks
 $lang['task_comment_added'] = 'Comment successfully added';
 $lang['task_duedate'] = 'Due Date';
-$lang['task_view_comments'] = 'Comments';
+$lang['task_view_comments'] = 'Komentarji';
 $lang['task_comment_updated'] = 'Comment updated';
 $lang['task_visible_to_client'] = 'Visible to customer';
 $lang['task_hourly_rate'] = 'Hourly Rate';

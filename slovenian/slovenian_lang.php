@@ -3,175 +3,175 @@
 #
 # General
 $lang['id']                   = 'ID';
-$lang['name']                 = 'Name';
-$lang['options']              = 'Options';
-$lang['submit']               = 'Save';
-$lang['added_successfuly']    = '%s added successfully.';
-$lang['updated_successfuly']  = '%s updated successfully.';
-$lang['edit']                 = 'Edit %s';
-$lang['add_new']              = 'Add new %s';
-$lang['deleted']              = '%s deleted';
-$lang['problem_deleting']     = 'Problem deleting %s';
-$lang['is_referenced']        = 'The ID of the %s is already using.';
-$lang['close']                = 'Close';
-$lang['send']                 = 'Send';
-$lang['cancel']               = 'Cancel';
-$lang['go_back']              = 'Go Back';
-$lang['error_uploading_file'] = 'Error uploading file';
-$lang['load_more']            = 'Load More';
-$lang['cant_delete_default']  = 'Cant delete default %s';
+$lang['name']                 = 'Ime';
+$lang['options']              = 'Možnosti';
+$lang['submit']               = 'Shrani';
+$lang['added_successfuly']    = '%s uspešno dodano.';
+$lang['updated_successfuly']  = '%s uspešno posodobljeno.';
+$lang['edit']                 = 'Uredi %s';
+$lang['add_new']              = 'Dodaj novo %s';
+$lang['deleted']              = '%s Izbrisano';
+$lang['problem_deleting']     = 'Problem brisanja %s';
+$lang['is_referenced']        = 'ID naslov %s je že v uporabi.';
+$lang['close']                = 'Zapri';
+$lang['send']                 = 'Pošlji';
+$lang['cancel']               = 'Prekliči';
+$lang['go_back']              = 'Pojdi nazaj';
+$lang['error_uploading_file'] = 'Napaka pri nalaganju datoteke';
+$lang['load_more']            = 'Naloži več';
+$lang['cant_delete_default']  = 'Ne moremo izbrisati privzetega %s';
 
 # Invoice General
-$lang['invoice_status_paid']                = 'Paid';
-$lang['invoice_status_unpaid']              = 'Unpaid';
-$lang['invoice_status_overdue']             = 'Overdue';
-$lang['invoice_status_not_paid_completely'] = 'Partially Paid';
+$lang['invoice_status_paid']                = 'Plačano';
+$lang['invoice_status_unpaid']              = 'Neplačano';
+$lang['invoice_status_overdue']             = 'Zapadlo';
+$lang['invoice_status_not_paid_completely'] = 'Delno plačano';
 
 $lang['invoice_pdf_heading'] = 'INVOICE';
 
-$lang['invoice_table_item_heading']            = 'Item';
-$lang['invoice_table_quantity_heading']        = 'Qty';
-$lang['invoice_table_rate_heading']            = 'Rate';
-$lang['invoice_table_tax_heading']             = 'Tax';
-$lang['invoice_table_amount_heading']          = 'Amount';
-$lang['invoice_subtotal']                      = 'Sub Total';
-$lang['invoice_adjustment']                    = 'Adjustment';
-$lang['invoice_total']                         = 'Total';
-$lang['invoice_vat']                           = 'VAT Number';
+$lang['invoice_table_item_heading']            = 'Predmet';
+$lang['invoice_table_quantity_heading']        = 'Količina';
+$lang['invoice_table_rate_heading']            = 'Razmerje';
+$lang['invoice_table_tax_heading']             = 'Davek';
+$lang['invoice_table_amount_heading']          = 'Znesek';
+$lang['invoice_subtotal']                      = 'Skupni znesek';
+$lang['invoice_adjustment']                    = 'Prilagoditev';
+$lang['invoice_total']                         = 'Skupaj';
+$lang['invoice_vat']                           = 'Davčna številka';
 $lang['invoice_bill_to']                       = 'Bill To';
-$lang['invoice_data_date']                     = 'Invoice Date:';
-$lang['invoice_data_duedate']                  = 'Due Date:';
-$lang['invoice_received_payments']             = 'Transactions';
-$lang['invoice_no_payments_found']             = 'No Payments found for this invoice';
-$lang['invoice_note']                          = 'Note:';
-$lang['invoice_payments_table_number_heading'] = 'Payment #';
-$lang['invoice_payments_table_mode_heading']   = 'Payment Mode';
-$lang['invoice_payments_table_date_heading']   = 'Date';
-$lang['invoice_payments_table_amount_heading'] = 'Amount';
+$lang['invoice_data_date']                     = 'Datum računa:';
+$lang['invoice_data_duedate']                  = 'Datum zapadlosti:';
+$lang['invoice_received_payments']             = 'Transakcije';
+$lang['invoice_no_payments_found']             = 'Ni najdenih plačil za ta račun';
+$lang['invoice_note']                          = 'Opomba:';
+$lang['invoice_payments_table_number_heading'] = 'Plačilo #';
+$lang['invoice_payments_table_mode_heading']   = 'Način plačila';
+$lang['invoice_payments_table_date_heading']   = 'Datum';
+$lang['invoice_payments_table_amount_heading'] = 'Količina';
 
 
 # Announcements
-$lang['announcement']                 = 'Announcement';
-$lang['announcement_lowercase']       = 'announcement';
-$lang['announcements']                = 'Announcements';
-$lang['announcements_lowercase']      = 'announcements';
-$lang['new_announcement']             = 'New Announcement';
-$lang['announcement_name']            = 'Subject';
-$lang['announcement_message']         = 'Message';
-$lang['announcement_show_to_staff']   = 'Show to staff';
-$lang['announcement_show_to_clients'] = 'Show to clients';
-$lang['announcement_show_my_name']    = 'Show my name';
+$lang['announcement']                 = 'Obvestilo';
+$lang['announcement_lowercase']       = 'obvestilo';
+$lang['announcements']                = 'Obvestila';
+$lang['announcements_lowercase']      = 'obvestila';
+$lang['new_announcement']             = 'Novo obvestilo';
+$lang['announcement_name']            = 'Tema';
+$lang['announcement_message']         = 'Sporočilo';
+$lang['announcement_show_to_staff']   = 'Pokaži osebju';
+$lang['announcement_show_to_clients'] = 'Pokaži strankam';
+$lang['announcement_show_my_name']    = 'Pokaži moje ime';
 
 # Clients
-$lang['clients']                               = 'Customers';
-$lang['client']                                = 'Customer';
-$lang['new_client']                            = 'New Customer';
-$lang['client_lowercase']                      = 'customer';
-$lang['client_delete_tooltip']                 = 'All customer data will be deleted. Contracts,tickets,notes. NOTE: If invoices found customer wont be deleted. You need to assign this invoices to another customer to keep the invoice number';
-$lang['customer_delete_invoices_warning']      = 'This customer have invoices on the account. You cant delete this customer. Change all invoices to another customer in a future then delete.';
-$lang['client_firstname']                      = 'First Name';
-$lang['client_lastname']                       = 'Last Name';
-$lang['client_email']                          = 'Email';
-$lang['client_company']                        = 'Company';
-$lang['client_vat_number']                     = 'VAT Number';
-$lang['client_address']                        = 'Address';
-$lang['client_city']                           = 'City';
-$lang['client_postal_code']                    = 'Postal Code';
-$lang['client_state']                          = 'State';
-$lang['client_password']                       = 'Password';
-$lang['client_password_change_populate_note']  = 'Note: if you populate this fields, password will be changed on this contact.';
-$lang['client_password_last_changed']          = 'Password last changed:';
-$lang['login_as_client']                       = 'Login as client';
-$lang['client_invoices_tab']                   = 'Invoices';
-$lang['contracts_invoices_tab']                = 'Contracts';
-$lang['contracts_tickets_tab']                 = 'Tickets';
-$lang['contracts_notes_tab']                   = 'Notes';
-$lang['client_invoice_number_table_heading']   = 'Invoice #';
-$lang['client_invoice_date_table_heading']     = 'Date';
-$lang['client_invoice_due_date_table_heading'] = 'Due Date';
-$lang['client_string_table_heading']           = 'Customer';
-$lang['client_amount_table_heading']           = 'Amount';
-$lang['client_status_table_heading']           = 'Status';
-$lang['note_description']                      = 'Note description';
+$lang['clients']                               = 'Stranke';
+$lang['client']                                = 'Stranka';
+$lang['new_client']                            = 'Nova stranka';
+$lang['client_lowercase']                      = 'stranka';
+$lang['client_delete_tooltip']                 = 'Vsi podatki o stranki bodo izbrisani. Pogodbe, vstopnice, opombe. OPOMBA: Če so najdeni računi, stranka ne bo izbrisana. Te račune je potrebno dodeliti drugi stranki, da lahko obdržite številko računa';
+$lang['customer_delete_invoices_warning']      = 'Ta stranka ima na tem računu račune. Ne morete izbrisati te stranke. V prihodnje prestavite vse račune na drugo stranko in jo potem izbrišite.';
+$lang['client_firstname']                      = 'Ime';
+$lang['client_lastname']                       = 'Priimek';
+$lang['client_email']                          = 'E-pošta';
+$lang['client_company']                        = 'Podjetje';
+$lang['client_vat_number']                     = 'Davčna številka';
+$lang['client_address']                        = 'Naslov';
+$lang['client_city']                           = 'Kraj';
+$lang['client_postal_code']                    = 'Poštna številka';
+$lang['client_state']                          = 'Država';
+$lang['client_password']                       = 'Geslo';
+$lang['client_password_change_populate_note']  = 'OPOMBA: Če ste izpolnili ta polja, bo geslo na tem stiku spremenjeno.';
+$lang['client_password_last_changed']          = 'Zadjna sprememba gesla:';
+$lang['login_as_client']                       = 'Prijavite se kot stranka';
+$lang['client_invoices_tab']                   = 'Računi';
+$lang['contracts_invoices_tab']                = 'Pogodba';
+$lang['contracts_tickets_tab']                 = 'Vstopnice';
+$lang['contracts_notes_tab']                   = 'Opombe';
+$lang['client_invoice_number_table_heading']   = 'Račun #';
+$lang['client_invoice_date_table_heading']     = 'Datum';
+$lang['client_invoice_due_date_table_heading'] = 'Datum zapadlosti';
+$lang['client_string_table_heading']           = 'Stranka';
+$lang['client_amount_table_heading']           = 'Znesek';
+$lang['client_status_table_heading']           = 'Stanje';
+$lang['note_description']                      = 'Opis opombe';
 
-$lang['client_string_contracts_table_heading']      = 'Customer';
-$lang['client_start_date_contracts_table_heading']  = 'Start Date';
-$lang['client_end_date_contracts_table_heading']    = 'End Date';
-$lang['client_description_contracts_table_heading'] = 'Description';
-$lang['client_do_not_send_welcome_email']           = 'Do not send welcome email';
+$lang['client_string_contracts_table_heading']      = 'Stranka';
+$lang['client_start_date_contracts_table_heading']  = 'Datum začetka';
+$lang['client_end_date_contracts_table_heading']    = 'Končni datum';
+$lang['client_description_contracts_table_heading'] = 'Opis';
+$lang['client_do_not_send_welcome_email']           = 'Ne pošlji pozdravno sporočilo';
 
-$lang['clients_notes_table_description_heading'] = 'Description';
-$lang['clients_notes_table_addedfrom_heading']   = 'Added From';
-$lang['clients_notes_table_dateadded_heading']   = 'Date Added';
+$lang['clients_notes_table_description_heading'] = 'Opis';
+$lang['clients_notes_table_addedfrom_heading']   = 'Dodano od';
+$lang['clients_notes_table_dateadded_heading']   = 'Datum dodanega';
 
-$lang['clients_list_full_name']   = 'Full Name';
+$lang['clients_list_full_name']   = 'Polno ime';
 
-$lang['clients_list_last_login']  = 'Last Login';
+$lang['clients_list_last_login']  = 'Zadnji vpis';
 
 
 # Contracts
-$lang['contracts']                = 'Contracts';
-$lang['contract']                 = 'Contract';
-$lang['new_contract']             = 'New Contract';
-$lang['contract_lowercase']       = 'contract';
-$lang['contract_start_date']      = 'Start Date';
-$lang['contract_end_date']        = 'End Date';
-$lang['contract_subject']         = 'Subject';
-$lang['contract_description']     = 'Description';
-$lang['contract_subject_tooltip'] = 'Subject is also visible to customer';
-$lang['contract_client_string']   = 'Customer';
-$lang['contract_attach']          = 'Attach document';
+$lang['contracts']                = 'Pogodbe';
+$lang['contract']                 = 'Pogodba';
+$lang['new_contract']             = 'Nova pogodba';
+$lang['contract_lowercase']       = 'pogodba';
+$lang['contract_start_date']      = 'Datum začetka';
+$lang['contract_end_date']        = 'Končni datum';
+$lang['contract_subject']         = 'Tema';
+$lang['contract_description']     = 'Opis';
+$lang['contract_subject_tooltip'] = 'Tema je vidna tudi stranki';
+$lang['contract_client_string']   = 'Stranka';
+$lang['contract_attach']          = 'Priloži dokument';
 
-$lang['contract_list_client']     = 'Customer';
-$lang['contract_list_subject']    = 'Subject';
-$lang['contract_list_start_date'] = 'Start Date';
-$lang['contract_list_end_date']   = 'End Date';
+$lang['contract_list_client']     = 'Stranka';
+$lang['contract_list_subject']    = 'Tema';
+$lang['contract_list_start_date'] = 'Datum začetka';
+$lang['contract_list_end_date']   = 'Končni datum';
 
 # Currencies
-$lang['currencies']           = 'Currencies';
-$lang['currency']             = 'Currency';
-$lang['new_currency']         = 'New Currency';
-$lang['currency_lowercase']   = 'currency';
-$lang['base_currency_set']    = 'This is now your base currency.';
-$lang['make_base_currency']   = 'Make base currency';
-$lang['base_currency_string'] = 'Base Currency';
+$lang['currencies']           = 'Valute';
+$lang['currency']             = 'Valuta';
+$lang['new_currency']         = 'Nova valuta';
+$lang['currency_lowercase']   = 'Valuta';
+$lang['base_currency_set']    = 'To je zdaj vaša osnovna valuta.';
+$lang['make_base_currency']   = 'Določi osnovno valuto';
+$lang['base_currency_string'] = 'Osnovna valuta';
 
-$lang['currency_list_name']   = 'Name';
-$lang['currency_list_symbol'] = 'Symbol';
+$lang['currency_list_name']   = 'Ime';
+$lang['currency_list_symbol'] = 'Simbol';
 
 
-$lang['currency_add_edit_description'] = 'Currency Name';
-$lang['currency_add_edit_rate']        = 'Symbol';
+$lang['currency_add_edit_description'] = 'Ime valute';
+$lang['currency_add_edit_rate']        = 'Simbol';
 
-$lang['currency_edit_heading'] = 'Edit Currency';
-$lang['currency_add_heading']  = 'Add New Currency';
+$lang['currency_edit_heading'] = 'Uredu valuto';
+$lang['currency_add_heading']  = 'Dodaj novo valuto';
 
 
 # Department
-$lang['departments']          = 'Departments';
-$lang['department']           = 'Department';
-$lang['new_department']       = 'New Department';
-$lang['department_lowercase'] = 'department';
+$lang['departments']          = 'Oddelki';
+$lang['department']           = 'Oddelek';
+$lang['new_department']       = 'Nov oddelek';
+$lang['department_lowercase'] = 'oddelek';
 
-$lang['department_name']             = 'Department Name';
-$lang['department_email']            = 'Department Email';
-$lang['department_hide_from_client'] = 'Hide from client?';
-$lang['department_list_name']        = 'Name';
+$lang['department_name']             = 'Ime oddelka';
+$lang['department_email']            = 'e-pošta oddelka';
+$lang['department_hide_from_client'] = 'Skrij pred stranko?';
+$lang['department_list_name']        = 'Ime';
 
 # Email Templates
-$lang['email_templates']                        = 'Email Templates';
-$lang['email_template']                         = 'Email Template';
-$lang['email_template_lowercase']               = 'email template';
-$lang['email_templates_lowercase']              = 'email templates';
-$lang['email_template_ticket_fields_heading']   = 'Tickets';
-$lang['email_template_invoices_fields_heading'] = 'Invoices';
-$lang['email_template_clients_fields_heading']  = 'Customers';
+$lang['email_templates']                        = 'Predloge e-pošte';
+$lang['email_template']                         = 'Predloga e-pošte';
+$lang['email_template_lowercase']               = 'Predloga e-pošte';
+$lang['email_templates_lowercase']              = 'predloge e-pošte';
+$lang['email_template_ticket_fields_heading']   = 'Vstopnice';
+$lang['email_template_invoices_fields_heading'] = 'Računi';
+$lang['email_template_clients_fields_heading']  = 'Stranke';
 
-$lang['template_name']                                      = 'Template Name';
-$lang['template_subject']                                   = 'Subject';
-$lang['template_fromname']                                  = 'From Name';
-$lang['template_fromemail']                                 = 'From Email';
-$lang['send_as_plain_text']                                 = 'Send as Plaintext';
+$lang['template_name']                                      = 'Ime predloge';
+$lang['template_subject']                                   = 'Tema';
+$lang['template_fromname']                                  = 'Ime od';
+$lang['template_fromemail']                                 = 'E-pošta od';
+$lang['send_as_plain_text']                                 = 'Pošlji kot čistopis';
 $lang['email_template_disabed']                             = 'Disabled';
 $lang['email_template_email_message']                       = 'Email message';
 $lang['available_merge_fields']                             = 'Available merge fields';
